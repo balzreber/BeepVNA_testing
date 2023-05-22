@@ -5,6 +5,7 @@ from src.DataSet import DataSetType
 from enum import Enum
 import plotly.express
 import plotly.graph_objects as plotlyGo
+from typing import List
 
 class PlotTypes(Enum):
     SVALS = 1
@@ -19,7 +20,7 @@ class Plotting:
         self.scanName = scanName
 
 
-    def getXAxisData(self, dataSeries: DataSeries) -> list[int]:
+    def getXAxisData(self, dataSeries: DataSeries) -> List[int]:
         xAxisData = []
 
         for dp in dataSeries:
@@ -28,7 +29,7 @@ class Plotting:
         return xAxisData
 
 
-    def getYAxisData(self, dataSeries: DataSeries, plotType: PlotTypes) -> list[float]:
+    def getYAxisData(self, dataSeries: DataSeries, plotType: PlotTypes) -> List[float]:
         yAxisData = []
 
         for dp in dataSeries:
@@ -56,7 +57,7 @@ class Plotting:
         return yAxisData
 
 
-    def plot(self, dataSet: DataSet, plotType: PlotTypes = PlotTypes.LOGMAG, show: bool = False, savePath: str = False) -> list[plotly.express.line]:
+    def plot(self, dataSet: DataSet, plotType: PlotTypes = PlotTypes.LOGMAG, show: bool = False, savePath: str = False) -> List[plotly.express.line]:
         plots = []
 
         for dataSeries in dataSet:

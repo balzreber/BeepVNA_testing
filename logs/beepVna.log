@@ -37358,3 +37358,118 @@
 2023-05-22 09:51:08,620 - INFO - Time elapsed: 0:01:22.966403 (Scan: 0:01:22.763559 / PostProcessing 0:00:00.202839)
 2023-05-22 09:51:08,620 - INFO - -- BeepVna terminated --
 2023-05-22 09:51:08,620 - INFO - ScanLog terminated
+2023-05-22 11:06:45,316 - INFO - -- BeepVna started --
+2023-05-22 11:06:45,316 - INFO - BeepVna version 0.1.0
+2023-05-22 11:06:45,316 - INFO - Input arguments: -n testing -t 1m -r 5 -acl
+2023-05-22 11:06:45,318 - INFO - Successfully connected to: /dev/cu.usbmodem69619FA503331
+2023-05-22 11:06:45,320 - INFO - Initiating Root Directory of scan: output/testing
+2023-05-22 11:06:45,320 - INFO - Directory output/testing already exists.
+2023-05-22 11:06:46,366 - INFO - Overwriting direcory output/testing
+2023-05-22 11:06:46,372 - INFO - ScanLog started
+2023-05-22 11:06:46,373 - INFO - Scan initiated with the following parameters:
+2023-05-22 11:06:46,373 - INFO - Name: testing / Start: 0.01 MHz / Stop: 1500.0 MHz / Step: 1.0 MHz / Runs: 5
+2023-05-22 11:06:46,373 - INFO - Run 1 of 5. Scanning 101 points from: 0.01 MHz to 100.01 MHz
+2023-05-22 11:06:47,474 - INFO - Run 1 of 5. Scanning 101 points from: 101.01 MHz to 201.01 MHz
+2023-05-22 11:06:48,579 - INFO - Run 1 of 5. Scanning 101 points from: 202.01 MHz to 302.01 MHz
+2023-05-22 11:06:49,684 - INFO - Run 1 of 5. Scanning 101 points from: 303.01 MHz to 403.01 MHz
+2023-05-22 11:06:50,689 - INFO - Run 1 of 5. Scanning 101 points from: 404.01 MHz to 504.01 MHz
+2023-05-22 11:06:51,793 - INFO - Run 1 of 5. Scanning 101 points from: 505.01 MHz to 605.01 MHz
+2023-05-22 11:06:52,797 - ERROR - Error appending sData (Real): could not convert string to float: '0.1\x004440944'
+2023-05-22 11:06:52,797 - ERROR - Length of Frequency data (101) and S data (0) do not mach
+2023-05-22 11:06:52,797 - WARNING - Expected 101 Data Points, got 0. Repeating Scan.
+2023-05-22 11:06:52,797 - INFO - Run 1 of 5. Scanning 101 points from: 505.01 MHz to 605.01 MHz
+2023-05-22 11:06:53,902 - INFO - Run 1 of 5. Scanning 101 points from: 606.01 MHz to 706.01 MHz
+2023-05-22 11:06:54,908 - INFO - Run 1 of 5. Scanning 101 points from: 707.01 MHz to 807.01 MHz
+2023-05-22 11:06:55,914 - INFO - Run 1 of 5. Scanning 101 points from: 808.01 MHz to 908.01 MHz
+2023-05-22 11:06:56,923 - ERROR - Error appending sData (Imaginary): could not convert string to float: '-0.8\x003485248'
+2023-05-22 11:06:56,923 - ERROR - Length of Frequency data (101) and S data (0) do not mach
+2023-05-22 11:06:56,923 - WARNING - Expected 101 Data Points, got 0. Repeating Scan.
+2023-05-22 11:06:56,923 - INFO - Run 1 of 5. Scanning 101 points from: 808.01 MHz to 908.01 MHz
+2023-05-22 11:06:58,031 - INFO - Run 1 of 5. Scanning 101 points from: 909.01 MHz to 1009.01 MHz
+2023-05-22 11:06:59,042 - INFO - Run 1 of 5. Scanning 101 points from: 1010.01 MHz to 1110.01 MHz
+2023-05-22 11:07:00,054 - INFO - Run 1 of 5. Scanning 101 points from: 1111.01 MHz to 1211.01 MHz
+2023-05-22 11:07:01,165 - INFO - Run 1 of 5. Scanning 101 points from: 1212.01 MHz to 1312.01 MHz
+2023-05-22 11:07:02,177 - INFO - Run 1 of 5. Scanning 101 points from: 1313.01 MHz to 1413.01 MHz
+2023-05-22 11:07:03,289 - INFO - Run 1 of 5. Scanning 87 points from: 1414.01 MHz to 1500.01 MHz
+2023-05-22 11:07:04,185 - INFO - Run 1 of 5 sucessfully completed
+2023-05-22 11:07:04,186 - INFO - Run 2 of 5. Scanning 101 points from: 0.01 MHz to 100.01 MHz
+2023-05-22 11:07:05,487 - INFO - Run 2 of 5. Scanning 101 points from: 101.01 MHz to 201.01 MHz
+2023-05-22 11:07:06,593 - INFO - Run 2 of 5. Scanning 101 points from: 202.01 MHz to 302.01 MHz
+2023-05-22 11:07:07,599 - INFO - Run 2 of 5. Scanning 101 points from: 303.01 MHz to 403.01 MHz
+2023-05-22 11:07:08,603 - INFO - Run 2 of 5. Scanning 101 points from: 404.01 MHz to 504.01 MHz
+2023-05-22 11:07:09,609 - INFO - Run 2 of 5. Scanning 101 points from: 505.01 MHz to 605.01 MHz
+2023-05-22 11:07:10,615 - INFO - Run 2 of 5. Scanning 101 points from: 606.01 MHz to 706.01 MHz
+2023-05-22 11:07:11,620 - INFO - Run 2 of 5. Scanning 101 points from: 707.01 MHz to 807.01 MHz
+2023-05-22 11:07:12,626 - INFO - Run 2 of 5. Scanning 101 points from: 808.01 MHz to 908.01 MHz
+2023-05-22 11:07:13,634 - INFO - Run 2 of 5. Scanning 101 points from: 909.01 MHz to 1009.01 MHz
+2023-05-22 11:07:14,642 - INFO - Run 2 of 5. Scanning 101 points from: 1010.01 MHz to 1110.01 MHz
+2023-05-22 11:07:15,652 - INFO - Run 2 of 5. Scanning 101 points from: 1111.01 MHz to 1211.01 MHz
+2023-05-22 11:07:16,663 - INFO - Run 2 of 5. Scanning 101 points from: 1212.01 MHz to 1312.01 MHz
+2023-05-22 11:07:17,673 - INFO - Run 2 of 5. Scanning 101 points from: 1313.01 MHz to 1413.01 MHz
+2023-05-22 11:07:18,783 - INFO - Run 2 of 5. Scanning 87 points from: 1414.01 MHz to 1500.01 MHz
+2023-05-22 11:07:19,680 - INFO - Run 2 of 5 sucessfully completed
+2023-05-22 11:07:19,680 - INFO - Run 3 of 5. Scanning 101 points from: 0.01 MHz to 100.01 MHz
+2023-05-22 11:07:20,979 - INFO - Run 3 of 5. Scanning 101 points from: 101.01 MHz to 201.01 MHz
+2023-05-22 11:07:22,084 - INFO - Run 3 of 5. Scanning 101 points from: 202.01 MHz to 302.01 MHz
+2023-05-22 11:07:23,090 - INFO - Run 3 of 5. Scanning 101 points from: 303.01 MHz to 403.01 MHz
+2023-05-22 11:07:24,095 - INFO - Run 3 of 5. Scanning 101 points from: 404.01 MHz to 504.01 MHz
+2023-05-22 11:07:25,101 - INFO - Run 3 of 5. Scanning 101 points from: 505.01 MHz to 605.01 MHz
+2023-05-22 11:07:26,107 - INFO - Run 3 of 5. Scanning 101 points from: 606.01 MHz to 706.01 MHz
+2023-05-22 11:07:27,113 - INFO - Run 3 of 5. Scanning 101 points from: 707.01 MHz to 807.01 MHz
+2023-05-22 11:07:28,119 - INFO - Run 3 of 5. Scanning 101 points from: 808.01 MHz to 908.01 MHz
+2023-05-22 11:07:29,127 - INFO - Run 3 of 5. Scanning 101 points from: 909.01 MHz to 1009.01 MHz
+2023-05-22 11:07:30,135 - INFO - Run 3 of 5. Scanning 101 points from: 1010.01 MHz to 1110.01 MHz
+2023-05-22 11:07:31,305 - INFO - Run 3 of 5. Scanning 101 points from: 1111.01 MHz to 1211.01 MHz
+2023-05-22 11:07:32,316 - INFO - Run 3 of 5. Scanning 101 points from: 1212.01 MHz to 1312.01 MHz
+2023-05-22 11:07:33,328 - INFO - Run 3 of 5. Scanning 101 points from: 1313.01 MHz to 1413.01 MHz
+2023-05-22 11:07:34,339 - INFO - Run 3 of 5. Scanning 87 points from: 1414.01 MHz to 1500.01 MHz
+2023-05-22 11:07:35,236 - INFO - Run 3 of 5 sucessfully completed
+2023-05-22 11:07:35,236 - INFO - Run 4 of 5. Scanning 101 points from: 0.01 MHz to 100.01 MHz
+2023-05-22 11:07:36,538 - ERROR - Error appending sData (Imaginary): could not convert string to float: '-0.\x0067110088'
+2023-05-22 11:07:36,538 - ERROR - Length of Frequency data (101) and S data (0) do not mach
+2023-05-22 11:07:36,538 - WARNING - Expected 101 Data Points, got 0. Repeating Scan.
+2023-05-22 11:07:36,538 - INFO - Run 4 of 5. Scanning 101 points from: 0.01 MHz to 100.01 MHz
+2023-05-22 11:07:37,640 - INFO - Run 4 of 5. Scanning 101 points from: 101.01 MHz to 201.01 MHz
+2023-05-22 11:07:38,745 - INFO - Run 4 of 5. Scanning 101 points from: 202.01 MHz to 302.01 MHz
+2023-05-22 11:07:39,751 - INFO - Run 4 of 5. Scanning 101 points from: 303.01 MHz to 403.01 MHz
+2023-05-22 11:07:40,755 - INFO - Run 4 of 5. Scanning 101 points from: 404.01 MHz to 504.01 MHz
+2023-05-22 11:07:41,761 - INFO - Run 4 of 5. Scanning 101 points from: 505.01 MHz to 605.01 MHz
+2023-05-22 11:07:42,766 - INFO - Run 4 of 5. Scanning 101 points from: 606.01 MHz to 706.01 MHz
+2023-05-22 11:07:43,772 - INFO - Run 4 of 5. Scanning 101 points from: 707.01 MHz to 807.01 MHz
+2023-05-22 11:07:44,777 - INFO - Run 4 of 5. Scanning 101 points from: 808.01 MHz to 908.01 MHz
+2023-05-22 11:07:45,785 - INFO - Run 4 of 5. Scanning 101 points from: 909.01 MHz to 1009.01 MHz
+2023-05-22 11:07:46,793 - INFO - Run 4 of 5. Scanning 101 points from: 1010.01 MHz to 1110.01 MHz
+2023-05-22 11:07:47,803 - INFO - Run 4 of 5. Scanning 101 points from: 1111.01 MHz to 1211.01 MHz
+2023-05-22 11:07:48,814 - INFO - Run 4 of 5. Scanning 101 points from: 1212.01 MHz to 1312.01 MHz
+2023-05-22 11:07:49,825 - INFO - Run 4 of 5. Scanning 101 points from: 1313.01 MHz to 1413.01 MHz
+2023-05-22 11:07:50,935 - INFO - Run 4 of 5. Scanning 87 points from: 1414.01 MHz to 1500.01 MHz
+2023-05-22 11:07:51,832 - INFO - Run 4 of 5 sucessfully completed
+2023-05-22 11:07:51,832 - INFO - Run 5 of 5. Scanning 101 points from: 0.01 MHz to 100.01 MHz
+2023-05-22 11:07:53,132 - INFO - Run 5 of 5. Scanning 101 points from: 101.01 MHz to 201.01 MHz
+2023-05-22 11:07:54,237 - INFO - Run 5 of 5. Scanning 101 points from: 202.01 MHz to 302.01 MHz
+2023-05-22 11:07:55,244 - INFO - Run 5 of 5. Scanning 101 points from: 303.01 MHz to 403.01 MHz
+2023-05-22 11:07:56,249 - INFO - Run 5 of 5. Scanning 101 points from: 404.01 MHz to 504.01 MHz
+2023-05-22 11:07:57,355 - INFO - Run 5 of 5. Scanning 101 points from: 505.01 MHz to 605.01 MHz
+2023-05-22 11:07:58,361 - INFO - Run 5 of 5. Scanning 101 points from: 606.01 MHz to 706.01 MHz
+2023-05-22 11:07:59,367 - INFO - Run 5 of 5. Scanning 101 points from: 707.01 MHz to 807.01 MHz
+2023-05-22 11:08:00,375 - INFO - Run 5 of 5. Scanning 101 points from: 808.01 MHz to 908.01 MHz
+2023-05-22 11:08:01,483 - INFO - Run 5 of 5. Scanning 101 points from: 909.01 MHz to 1009.01 MHz
+2023-05-22 11:08:02,499 - INFO - Run 5 of 5. Scanning 101 points from: 1010.01 MHz to 1110.01 MHz
+2023-05-22 11:08:03,510 - INFO - Run 5 of 5. Scanning 101 points from: 1111.01 MHz to 1211.01 MHz
+2023-05-22 11:08:04,621 - INFO - Run 5 of 5. Scanning 101 points from: 1212.01 MHz to 1312.01 MHz
+2023-05-22 11:08:05,632 - INFO - Run 5 of 5. Scanning 101 points from: 1313.01 MHz to 1413.01 MHz
+2023-05-22 11:08:06,743 - INFO - Run 5 of 5. Scanning 87 points from: 1414.01 MHz to 1500.01 MHz
+2023-05-22 11:08:07,641 - INFO - Run 5 of 5 sucessfully completed
+2023-05-22 11:08:07,641 - INFO - Converting <src.DataSet Object of type DataSetType.SCAN containing 5 DataSeries> to Network(s)
+2023-05-22 11:08:07,641 - INFO - Initiating touchstone Directory of scan: output/testing/touchstone
+2023-05-22 11:08:07,668 - INFO - Converting <src.DataSet Object of type DataSetType.SCAN containing 5 DataSeries> to CSV(s)
+2023-05-22 11:08:07,668 - INFO - Initiating csv Directory of scan: output/testing/csv
+2023-05-22 11:08:07,692 - INFO - Converting <src.DataSet Object of type DataSetType.SCAN containing 5 DataSeries> to Plots(s)
+2023-05-22 11:08:07,692 - INFO - Initiating plot Directory of scan: output/testing/plot
+2023-05-22 11:08:07,804 - INFO - Calculating average of <src.DataSet Object of type DataSetType.SCAN containing 5 DataSeries> with truncation of 0
+2023-05-22 11:08:07,810 - INFO - Converting <src.DataSet Object of type DataSetType.AVERAGE containing 1 DataSeries> to Network(s)
+2023-05-22 11:08:07,815 - INFO - Converting <src.DataSet Object of type DataSetType.AVERAGE containing 1 DataSeries> to CSV(s)
+2023-05-22 11:08:07,820 - INFO - Converting <src.DataSet Object of type DataSetType.AVERAGE containing 1 DataSeries> to Plots(s)
+2023-05-22 11:08:07,839 - INFO - Time elapsed: 0:01:21.465406 (Scan: 0:01:21.268465 / PostProcessing 0:00:00.196937)
+2023-05-22 11:08:07,839 - INFO - -- BeepVna terminated --
+2023-05-22 11:08:07,839 - INFO - ScanLog terminated

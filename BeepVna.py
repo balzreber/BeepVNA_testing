@@ -34,8 +34,8 @@ logger.activateScanLog(opt.name)
 def terminate():
     vna.resume()
     log.info(f"Time elapsed: {totalTime} (Scan: {scanTime} / PostProcessing {processingTime})")
-    log.info("-- BeepVna terminated --")
     logger.deactivateScanLog()
+    log.info("-- BeepVna terminated --")
 
 if opt.delay:
     vna.setDelay(opt.delay)
