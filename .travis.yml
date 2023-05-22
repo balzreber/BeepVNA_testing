@@ -2,13 +2,7 @@ language: python
 jobs:
   include:
     - name: "Python 3.8.0 on Xenial Linux"
-      python: # this works for Linux but is ignored on macOS or Windows
-          - "3.4"
-          - "3.5"
-          - "3.6"
-          - "3.7"
-          - "3.8"
-          - "3.9"
+      python: 3.6 # this works for Linux but is ignored on macOS or Windows
     - name: "Python 3.6.10 on FreeBSD"
       os: freebsd
       language: python
