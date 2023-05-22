@@ -7,6 +7,7 @@ from src.Logger import log
 from src.Settings import settings
 
 import math
+from typing import List
 
 class Scanner:
 
@@ -42,13 +43,13 @@ class Scanner:
         return scans
 
 
-    def getFreqFromPoints(self, start: int, stop: int, points: int) -> list:
+    def getFreqFromPoints(self, start: int, stop: int, points: int) -> List:
         frequencies = self.linspace(start, stop, points)
 
         return frequencies
 
 
-    def getFreqFromSteps(self, start: int, stop: int, step: int) -> list:
+    def getFreqFromSteps(self, start: int, stop: int, step: int) -> List:
         newStop = stop + start
         points = math.ceil((stop - start) / step) + 1
         frequencies = self.linspace(start, newStop, points)
@@ -56,14 +57,14 @@ class Scanner:
         return frequencies
 
 
-    def linspace(self, start: int, stop: int, points: int) -> list:
+    def linspace(self, start: int, stop: int, points: int) -> List:
         delta = (stop-start)/(points-1)
         linspace = [start + i * delta for i in range(points)]
 
         return linspace
 
 
-    def execScan(self, frequencies: list, runNr: int, runTotal: int) -> DataSeries:
+    def execScan(self, frequencies: List, runNr: int, runTotal: int) -> DataSeries:
         segmentLength = 101
         consecutiveErrors = 0
 

@@ -3,6 +3,7 @@ from src.DataSet import DataSet
 from src.DataSeries import DataSeries
 
 import skrf
+from typing import List
 
 class Networking:
 
@@ -10,7 +11,7 @@ class Networking:
         self.scanName = scanName
 
 
-    def skrfNetwork(self, frequencies: list[int], sData: list[float]) -> skrf.Network:
+    def skrfNetwork(self, frequencies: List[int], sData: List[float]) -> skrf.Network:
         skrfNetwork = skrf.Network()
         skrfNetwork.frequency = skrf.Frequency.from_f(frequencies, unit='hz')
         skrfNetwork.s = (sData)
@@ -18,7 +19,7 @@ class Networking:
         return skrfNetwork
 
 
-    def createNetwork(self, dataSet: DataSet, savePath: str = False) -> list[skrf.Network]:
+    def createNetwork(self, dataSet: DataSet, savePath: str = False) -> List[skrf.Network]:
         networks = []
 
         for dataSeries in dataSet:

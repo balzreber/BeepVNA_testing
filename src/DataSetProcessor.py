@@ -15,6 +15,7 @@ import os
 import shutil
 import skrf
 import plotly.express
+from typing import List
 
 
 class DataSetProcessor:
@@ -30,7 +31,7 @@ class DataSetProcessor:
         self.dsCalc = DataSetCalculator(scanName)
 
 
-    def toNetwork(self, dataSet: DataSet, save: bool = False) -> list[skrf.Network]:
+    def toNetwork(self, dataSet: DataSet, save: bool = False) -> List[skrf.Network]:
         log.info(f"Converting {dataSet} to Network(s)")
 
         if save: save = self.dirManager.initDir('touchstone')
@@ -46,7 +47,7 @@ class DataSetProcessor:
         self.csving.createCsv(dataSet, savePath = save)
 
 
-    def toPlot(self, dataSet: DataSet, plotType: PlotTypes = PlotTypes.LOGMAG, show: bool = False, save: bool = False) -> list[plotly.express.line]:
+    def toPlot(self, dataSet: DataSet, plotType: PlotTypes = PlotTypes.LOGMAG, show: bool = False, save: bool = False) -> List[plotly.express.line]:
         log.info(f"Converting {dataSet} to Plots(s)")
 
         if save: save = self.dirManager.initDir('plot')
@@ -55,7 +56,7 @@ class DataSetProcessor:
         return plots
 
 
-    def toOverviewPlot(self, peakSet: DataSet, fullSeries: DataSeries, cutoff, plotType: PlotTypes = PlotTypes.LOGMAG, show: bool = False, save: bool = False) -> list[plotly.express.line]:
+    def toOverviewPlot(self, peakSet: DataSet, fullSeries: DataSeries, cutoff, plotType: PlotTypes = PlotTypes.LOGMAG, show: bool = False, save: bool = False) -> List[plotly.express.line]:
         log.info(f"Converting {fullSeries} with {peakSet} to Overview Plot")
 
         if save: save = self.dirManager.initDir('plot')
