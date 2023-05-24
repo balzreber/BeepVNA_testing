@@ -1,5 +1,7 @@
 # Contents of output dir
+# To keep the directory itself, don't ignore .gitkeep
 output/*
+!output/.gitkeep
 
 # OS generated files
 .DS_Store
