@@ -4,6 +4,9 @@
 The idea for this software came when I wanted to characterise the few dozens antennas in my collection. I wanted to be able to do multiple high resolution scans, average them together and then output a plot file, where all the resonances of the scanned antenna are highlighted.
 I found currently available software lacking this functionality. There is software who can do quite detailed scans. Which I used at first. But then I had to convert the touchstone files to csv, do the calculations in excel and generate the plots myself. Which is quite a bit of work. BleepVNA does all that with a single command.
 
+![Example of a plot done with BleepVNA](/img/samplePlot.png)
+Example of a plot done with BleepVNA
+
 ## A word of caution
 I am a coder by trait. But I'm in no way an expert in RF Networks. Nor am I particularly versed in Python. In fact this is one of my fits larger Python projects. I'm sure I did a lot wrong here. So this software should be considered at most an beta version. If you find something wrong, missing or otherwise sketchy, please do let me know by opening an issue right here in this repo.
 
